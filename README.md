@@ -7,15 +7,19 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
 
 ## Table of Contents
 
-- [Project Title: ATS Resume Analyzer](#project-title-ats-resume-analyzer)
-  - [Description](#description)
+<details>
+<summary>Table of Contents</summary>
+
+- [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Try the Application](#try-the-application)
   - [Technology Stack](#technology-stack)
   - [Features](#features)
   - [CI/CD Pipeline](#cicd-pipeline)
   - [Authors](#authors)
-  - [License](#license)
+- [License](#license)
+
+</details>
 
 ### How to Use the Application:
 
