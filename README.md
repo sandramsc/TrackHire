@@ -62,7 +62,7 @@ Utilized Terraform, Docker, GitHub Actions, AWS EC2, AWS ECR to create a complet
 
 | Name           | GitHub                                      |
 | -------------- | ------------------------------------------- |
-| [Author 1 Name](https://github.com/author1) | [author1](https://github.com/author1) |
+| Sandra Ashipala | [GitHub](https://github.com/sandramsc) |
 
 ## License
 
