@@ -10,6 +10,8 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
 
 - [Description](#description)
   - [Table of Contents](#table-of-contents)
+ 
+  - [How to use the Application](#how-to-use-the-application)
   - [Try the Application](#try-the-application)
   - [Technology Stack](#technology-stack)
   - [Features](#features)
