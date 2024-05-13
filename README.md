@@ -41,7 +41,7 @@ Access the application on Hugging Face: [ATS Resume Analyzer](#)
 | Streamlit  | Web Framework               |
 | Docker     | Containerization            |
 | GitHub Actions | CI/CD Automation        |
-| AWS        | Cloud Deployment            |
+| AWS (EKS,ECR)    | Cloud Deployment            |
 | GEMINI AI  | Job Description Analysis    |
 | Hugging Face  | description   |
 
@@ -55,7 +55,7 @@ Access the application on Hugging Face: [ATS Resume Analyzer](#)
   
 ## CI/CD Pipeline
 
-Utilized Terraform, Docker, GitHub Actions, AWS EC2, AWS AWS ECR to create a complete CI/CD pipeline. The pipeline automates the deployment process, ensuring efficient and reliable updates to the application.
+Utilized Terraform, Docker, GitHub Actions, AWS EC2, AWS ECR to create a complete CI/CD pipeline. The pipeline automates the deployment process, ensuring efficient and reliable updates to the application.
 
 
 ## Authors
