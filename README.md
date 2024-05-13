@@ -1,8 +1,8 @@
 <h1 align="center"> Application Tracking System</h1>
 <p align="center">
-
 An application tracking system (ATS) built using Google GEMINI Pro Vision API, which analyzes job descriptions and matches keywords to provided resumes in PDF format. The app outputs suggestions to improve the resume to better match the job description. It's a powerful tool for job seekers to tailor their resumes effectively.
 </p>
+
 ## Table of Contents
 
 <details>
