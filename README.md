@@ -14,9 +14,15 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
   - [Technology Stack](#technology-stack)
   - [Features](#features)
   - [CI/CD Pipeline](#cicd-pipeline)
-  - [Contributing](#contributing)
   - [Authors](#authors)
   - [License](#license)
+
+### How to Use the Application:
+
+1. Add a job description by copying and pasting it into the "Job Description" section.
+2. Upload a copy of your resume in PDF format.
+3. Click the "Submit" button.
+4. View the analysis results.
 
 ## Try the Application
 
