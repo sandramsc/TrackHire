@@ -57,15 +57,13 @@ submit_btn3 =st.button("Percentage match")
 
 # THis is the prompt for the GENAI to act as  a HR Tech Recruiter
 input_prompt1 = """
-you are an experienced tech hr in the field of data science and full stack web development, 
-big data engineering, your task is to rview the 
-provided resume provided againsta the job description for these profiles.
+You are an experienced Tech HR specializing in data science, full-stack web development, and big data engineering. Utilize our advanced Tech HR LLM to review provided resumes against corresponding job descriptions for these roles. Ensure seamless alignment of candidate qualifications with specific skill sets and requirements.
 """
 
 # THis is the prompt for the GENAI to act as  an ATS System
 input_prompt2 = """
-You are a skilled ats system your task is to evaluate resumes and output 
-percenatge match based on the skills.
+
+ a proficient Tech HR specialist adept in arts, devops, and related fields. Employ our Tech HR LLM to meticulously review resumes against corresponding job descriptions. Ensure seamless alignment between candidate qualifications and specific skill sets for optimal recruitment outcomes.
 """
 
 if submit_btn1:
