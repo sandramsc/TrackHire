@@ -2,7 +2,7 @@ terraform {
     required_providers{
         aws = {
             source = "hashicorp/aws"
-            veersion = "1.4"        
+            version = "1.4"        
     }
 }
 
@@ -12,7 +12,7 @@ backend "s3"{
 
 }
 
-provider "aws {
+provider "aws" {
     region = var.region
 }
 
@@ -25,9 +25,9 @@ resource "aws_instance" "server" {
     key_name = aws_key_pair.deployer.key_name
     vpc_security_group_ids = [aws-security-group.maingroup.id]
     iam_instance_profile = aws_iam_instance_profile.ec2-profile.name
-    connection {= "ssh"
-        host se
-        type lf.public_ip
+    connection {
+        type = "ssh"
+        host = self.public_ip
         user = "ubuntu"
         private_key = var.private_key
         timeout = "4m"
