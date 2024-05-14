@@ -23,14 +23,16 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
 
 ### How to Use the Application:
 
-1. Add a job description by copying and pasting it into the "Job Description" section.
-2. Upload a copy of your resume in PDF format.
-3. Click the "Submit" button.
-4. View the analysis results.
+1. Create a GOOGLE_API_KEY
+2. Add it locally to a .env file
+3. Clone the repo
+4. Install dependencies
+5. Run python3 app.py
+6. Add a job description by copying and pasting it into the "Job Description" section.
+7. Upload a copy of your resume in PDF format.
+8. Click the "Submit" button.
+9. View the analysis results. 
 
-## Try the Application
-
-Access the application on Hugging Face: [ATS Resume Analyzer](#)
 
 ## Technology Stack
 
