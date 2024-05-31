@@ -10,7 +10,6 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
 
 - [Description](#description)
   - [Table of Contents](#table-of-contents)
- 
   - [How to use the Application](#how-to-use-the-application)
   - [Try the Application](#try-the-application)
   - [Technology Stack](#technology-stack)
@@ -35,7 +34,7 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
 
 ## Try the Application
 
-Access the application on Hugging Face: [ATS Resume Analyzer](https://huggingface.co/spaces/SANDRAMSC/portfolio_project#ats-tracking-system)
+Access the application on Hugging Face: [TrackHire - ATS Resume Analyzer](https://huggingface.co/spaces/SANDRAMSC/portfolio_project#ats-tracking-system)
 
 
 ## Technology Stack
