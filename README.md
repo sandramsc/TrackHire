@@ -42,14 +42,14 @@ Access the application on Hugging Face: [ATS Resume Analyzer](https://huggingfac
 
 | Technology | Description                 |
 | ---------- | --------------------------- |
-| Terraform  | Infrastructure as code      |
+| Terraform  | an infrastructure as code tool that enables you to safely and predictably provision and manage infrastructure in any cloud.    |
 | Python     | Programming Language        |
-| Streamlit  | Web Framework               |
-| Docker     | Containerization            |
-| GitHub Actions | CI/CD Automation        |
+| Streamlit  | open-source Python framework for data scientists and AI/ML engineers to deliver interactive data apps               |
+| Docker     | a platform designed to help developers build, share, and run container applications.           |
+| GitHub Actions | a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.        |
 | AWS (EKS,ECR)    | Cloud Deployment            |
-| GEMINI AI  | Job Description Analysis    |
-| Hugging Face  | description   |
+| GEMINI AI API | gives you access to Gemini models created by Google DeepMind    |
+| Hugging Face  | A service that develops computation tools for building applications using machine learning   |
 
 ## Features
 
