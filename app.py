@@ -85,7 +85,7 @@ You are a proficient resume analyst with expertise in optimizing resumes for dat
 # This is the prompt for the GENAI to provide a summary of candidate strengths and weaknesses
 input_prompt6 = """
 You are an experienced Tech HR analyst with a strong understanding of candidate evaluation. Use our Tech HR LLM to provide a summary of the strengths and weaknesses of a candidate based on their resume and the provided job description. Highlight key areas where the candidate excels and areas where they may need improvement.
-
+"""
 
 if submit_btn1:
     if upload_file is not None:
