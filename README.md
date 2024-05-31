@@ -47,7 +47,7 @@ Access the application on Hugging Face: [TrackHire - ATS Resume Analyzer](https:
 | Docker     | a platform designed to help developers build, share, and run container applications.           |
 | GitHub Actions | a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.        |
 | AWS (EKS,ECR)    | Cloud Deployment            |
-| GEMINI AI API | gives you access to Gemini models created by Google DeepMind    |
+| Google GEMINI Pro Vision API | gives you access to Gemini models created by Google DeepMind    |
 | Hugging Face  | A service that develops computation tools for building applications using machine learning   |
 
 ## Features
