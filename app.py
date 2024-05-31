@@ -11,7 +11,7 @@ from PIL import Image
 import pdf2image
 import google.generativeai as genai
 
-genai.configureapi_key=os.getenv(("GOOGLE_API_KEY"))
+genai.configureapi_key=os.getenv("GOOGLE_API_KEY")
 
 def get_gemini_response(input, pdf_content, prompt):
     model = genai.GenerativeModel('gemini-pro-vision')
@@ -41,9 +41,9 @@ def input_pdf_setup(upload_file):
 
 
 # Streamlit App
-st.set_page_config(page_title = "ATS Resume Scanner")
-st.header("ATS TRacking System")
-input_text = st.text_area("Job DEscription: ", key= "input")
+st.set_page_config(page_title = " TrackHire - ATS Resume Analyzer")
+st.header("ATS Resume Analyzer")
+input_text = st.text_area("Job Description: ", key= "input")
 upload_file = st.file_uploader("Upload your resume in PDF format", type="pdf")
 
 if upload_file is not None:
