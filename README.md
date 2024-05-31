@@ -48,7 +48,7 @@ Access the application on Hugging Face: [TrackHire - ATS Resume Analyzer](https:
 | GitHub Actions | a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline.        |
 | AWS (EKS,ECR)    | cloud deployment            |
 | Google GEMINI Pro Vision API | gives you access to Gemini models created by Google DeepMind    |
-| Hugging Face  | A service that develops computation tools for building applications using machine learning   |
+| Hugging Face  | a service that develops computation tools for building applications using machine learning   |
 
 ## Features
 
