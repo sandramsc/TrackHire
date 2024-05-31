@@ -31,7 +31,11 @@ An application tracking system (ATS) built using Google GEMINI Pro Vision API, w
 6. Add a job description by copying and pasting it into the "Job Description" section.
 7. Upload a copy of your resume in PDF format.
 8. Click the "Submit" button.
-9. View the analysis results. 
+9. View the analysis results.
+
+## Try the Application
+
+Access the application on Hugging Face: [ATS Resume Analyzer](https://huggingface.co/spaces/SANDRAMSC/portfolio_project#ats-tracking-system)
 
 
 ## Technology Stack
