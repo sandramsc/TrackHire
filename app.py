@@ -15,13 +15,13 @@ genai.configureapi_key=os.getenv("GOOGLE_API_KEY")
 
 def get_gemini_response(input, pdf_content, prompt):
     model = genai.GenerativeModel('gemini-pro-vision')
-    response = model.generative_content([input, pdf_content[0], prompt])
+    response = model.generate_content([input, pdf_content[0], prompt])
     return response.text
 
 def input_pdf_setup(upload_file):
     if upload_file is not None:
         ## Convert PDF to image
-        images = pdf2image.convert_from_bytes(upload_file.read.read())
+        images = pdf2image.convert_from_bytes(upload_file.read())
         first_page = images[0]
 
         # Convert into bytes
