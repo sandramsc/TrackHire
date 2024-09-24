@@ -49,6 +49,28 @@ upload_file = st.file_uploader("Upload your resume in PDF format", type="pdf")
 if upload_file is not None:
      st.write('PDF uploaded successfully')
 
+button_style = """
+
+<style>
+div.stButton > button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: None;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+</style>
+"""
+
+st.markdown(button_style, unsafe_allow_html=True)
+
+# Create buttons for CTA
 submit_btn1 =st.button("Tell me about yourself?")
 submit_btn2 =st.button("How can I improve my skills?")
 submit_btn3 =st.button("Percentage match")
@@ -87,12 +109,26 @@ input_prompt6 = """
 You are an experienced Tech HR analyst with a strong understanding of candidate evaluation. Use our Tech HR LLM to provide a summary of the strengths and weaknesses of a candidate based on their resume and the provided job description. Highlight key areas where the candidate excels and areas where they may need improvement.
 """
 
+# Anonymize resume
+
+def anonymize_resume(resume):
+    # Name
+    anonymize_resume = resume
+    # MOdify this regex based on how the resume content is formatted
+    anonymize_resume = re.sub(r'(?i)name:\s*.*', 'Name: [REDACTED]', anonymize_resume)
+
+    return anonymize_resume
+
+
 if submit_btn1:
     if upload_file is not None:
-          pdf_content= input_pdf_setup(upload_file)
+          pdf_content = input_pdf_setup(upload_file)
           response = get_gemini_response(input_prompt1, pdf_content, input_text)
+          
+          # Anonymize the response
+          anonymize_response = anonymize_resume(response)
           st.subheader("The response is:")
-          st.write(response)
+          st.write(anonymize_response)
     else:
         st.write("Please upload the resume")
 
@@ -132,3 +168,8 @@ if submit_btn6:
           response = get_gemini_response(input_prompt6, pdf_content, input_text)
           st.subheader("The response is:")
           st.write(response)
+
+
+
+
+
